@@ -1,0 +1,154 @@
+h2 {
+    text-align: center;
+    font-family: louvre;
+    font-size: 50px;
+}
+@font-face {
+    font-family: louvre;
+    src: url(fonts/TheDarkTitanClassic-4apx.ttf);
+}
+/* ----------------------------------------------- */
+
+nav {
+    border-radius: 25px;
+    background-color: black;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+   }
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+nav a:hover {
+    color:red;
+    text-decoration: underline;
+}
+.info {
+    text-align: left;
+}
+
+.napoleon {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.medusa {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tanis {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.milo {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wing {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kiss {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.battle {
+    background-color: aqua;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos {
+    position: fixed;
+    top: 80px;
+    
+}
+#image1 {
+    display : block;
+}
+#image2 {
+    display : block;
+}
+#image3 {
+    display : block;
+}
+.schedule{
+    /* margin-left: auto; */
+    /* margin-bottom: 50px; */
+    /* margin-right: auto; */
+    width: 200px;
+    height: 200px;
+    /* position: sticky;
+    bottom: 170px; */
+}
+table, tr, th, td {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+.weekday:hover{
+    background-color:green;
+}
+.closed:hover{
+    color:black;
+}
+.weekend:hover {
+    background-color: red;
+}
+
+/* ----------------------------------------------- */
+
+.searchbar {
+    /* position: relative;
+    left: 1650px;
+    bottom: 5500px; */
+    margin-left: auto;
+    position: fixed;
+    top: 80px;
+    right: 15px;
+}
+.search {
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(193, 165, 220);
+    
+}
+input::placeholder{
+    color: black;
+}
+.button{
+    padding: 10px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: rgb(158, 155, 155);
+}
+.button:active{
+    background-color: black;
+    color: red;
+}
