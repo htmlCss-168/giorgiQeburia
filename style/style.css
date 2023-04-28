@@ -1,0 +1,174 @@
+:root {
+    --infoFontSize: 25px;
+    --headTextSize: 50px;
+    --modelsize:32px;
+}
+
+@font-face {
+    font-family: mitchel;
+    src: url(fonts/RosmatikaRegular-BWA45.ttf);
+}
+@font-face {
+    font-family: heading;
+    src: url(fonts/LostAgesPersonalUseRegular-Ea0nl.ttf);
+}
+.searchbar {
+    margin-left: auto;
+    position: fixed;
+    top: 80px;
+    right: 15px;
+   }
+.search {
+    width: 250px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 25px;
+    color: black;
+}
+.search:hover {
+    background-color: greenyellow;
+    transition: 3s;
+}
+.button{
+    width: 60px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.button:hover{
+    background-color: greenyellow;
+    transition: 3s;
+
+}
+.button:active {
+    background-color: green;
+    transition: 0.1s;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;   
+    padding: 15px; 
+    border-radius: 25px;
+    position:sticky;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(86,254,0,1) 0%, rgba(54,147,26,1) 53%, rgba(16,125,40,1) 85%);
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+    margin-left: 15px;
+}
+nav a:hover {
+    color:green;
+    background-color: black;
+}
+.heading {
+    font-family: heading;
+    font-size: 50px;
+    animation-name:headingAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes headingAnimation{
+    0% {color:rgb(1, 13, 13);}
+    25% {color:rgb(22, 176, 32);}
+    50% {color:rgb(1, 13, 13);}
+    75% {color:rgb(22, 176, 32);}
+    100% {color:rgb(1, 13, 13);}
+
+}
+
+h2 {
+    font-size: var(--modelsize);
+}
+.info {
+    text-align: left;
+    font-size: var(--infoFontSize);
+}
+.info::first-line {
+    color: rgb(207, 207, 6);
+    font-size: 25px;
+}
+.info::first-letter {
+    color: red;
+    font-size: 27px;
+}
+.info::selection {
+    background-color: black;
+    color: red;
+}
+
+
+.plane1:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+
+   
+}
+
+.Mitchell {
+    /* background-color: aqua; */
+    width: 500px;
+    text-align: center;
+}
+.Douglas {
+    /* background-color: aqua; */
+    width: 500px;
+    text-align: center;
+}
+.Spitfire {
+    /* background-color: aqua; */
+    width: 500px;
+    text-align: center;
+}
+.Consolidated {
+    /* background-color: aqua; */
+    width: 500px;
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 15px;
+    column-gap: 100px;
+    row-gap: 15px;
+    margin-left: 240px;
+}
+
+.logos {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logos a:hover{
+    transform: rotate(360deg); 
+    border-radius: 50%;
+    transition: 0.9s;
+}
+.email input{
+    width: 350px;
+    padding: 10px;
+    
+}
+.email button{
+    width: 350px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.email button:hover {
+    background-color: rgb(248, 83, 6);
+    color: black;
+    transition: 0.7s;
+}
+body{
+    background: rgb(9,97,236);
+    background: linear-gradient(39deg, rgba(9,97,236,1) 11%, rgba(84,78,252,1) 31%, rgba(0,75,255,1) 41%, rgba(38,130,194,1) 80%, rgba(21,91,187,1) 92%, rgba(28,97,205,1) 95%, rgba(39,81,186,1) 98%);
+    
+
+}
