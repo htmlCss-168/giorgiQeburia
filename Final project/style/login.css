@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+form {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 25px;
+    width: 500px;
+}
+.wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    text-align: center;
+    
+}
+#username {
+    padding: 10px;
+    border-radius: 15px;
+
+}
+#password {
+    padding: 10px;
+    border-radius: 15px;
+}
+#submit {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
