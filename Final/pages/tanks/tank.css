@@ -1,0 +1,285 @@
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+nav {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+nav a {
+    /* background-color: aqua; */
+    text-decoration: none;
+    padding:20px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: blueviolet;
+    transition: 0.2s;
+    font-weight: bold;
+    box-shadow: 0 3px 0 #007330;
+    color: white;
+}
+.container {
+    width: 100%;
+    background: rgb(9,236,12);
+    background: linear-gradient(39deg, rgba(9,236,12,1) 0%, rgba(0,135,111,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstdiv {
+    /* background-color: blue; */
+    /* width: 300px; */
+    display: flex;
+    margin-right: 25px;
+}
+.firstdiv i{
+    color:black;
+    font-size: 50px;
+}
+.firstdiv i:hover {
+    color:blueviolet;
+    transition: 0.2s;
+}
+
+.seconddiv {
+    background-color: white;
+    width: 300px;
+    /* height: 10px; */
+    display: flex;
+    padding: 5px;
+    margin-left: 25px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.seconddiv input{
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+.seconddiv button {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.login {
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+    /* background-color: yellow; */
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.login img {
+    margin-right: 10px;
+    width: auto;
+    height: 26px;
+}
+.login p {
+    text-decoration: none;
+    font-size: 25px ;
+    color: white;
+    margin: 0px;
+    color: blueviolet;
+}
+.login:hover {
+    background-color: blueviolet;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+.login:hover p{
+    color: white;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 50px;
+    width: fit-content;
+    /* background-color: yellowgreen; */
+    margin: auto;
+    padding: 0px 50px;
+}
+.gameList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    /* width: 75%; */
+}
+
+.game {
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 0;
+    width: 300px;
+}
+.game:hover p {
+    color: blueviolet;
+}
+.game .gameImg {
+    width:250px;
+    height: 375px;
+    overflow: hidden;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.game p{
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gameImg img{
+    width:250px;
+    height: 375px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.gameImg:hover {
+    box-shadow: 0 0px 15px 5px green;
+}
+.gameImg{
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.gameImg img:hover {
+    transform: scale(1.1);
+
+}
+.containe2news {
+    background-color: aqua;
+    width: 400px;
+    height: 500px;
+}
+.tank {
+    background-color: aqua;
+    /* display: inline-block; */
+    
+}
+
+.info {
+    background-color: blue;
+    width: 400px;
+    margin-left: auto;
+    margin-bottom: auto
+}
+.info p{
+    text-align: left;
+    background-color: #007330;
+    font-size: 20px;
+}
+.reqs {
+    background-color: blue;
+    margin-left: 25px;
+    width: 400px;
+
+}
+.reqs p {
+    background-color: #007330;
+    font-size: 20px;
+    
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.gameInfoAround{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: 50px;
+
+}
+.gameInfoInsider{
+    width: 1000px;
+    /* background-color: cadetblue; */
+}
+.GameHeadTitle{
+    width: 100%;
+    /* background-color: brown; */
+}
+.GameHeadTitle h1 {
+    margin: 0px;
+    color: black;
+    font-size: 40px;
+}
+.gameInfo {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+.gamePoster{
+    width: 300px;
+    height: fit-content;
+    /* background-color: aqua; */
+    margin-right: 15px;
+}
+.gamePoster img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+.subscribe {
+    width: 100%;
+    background-color: rgb(227, 227, 227);
+    padding: 10px 0;
+    height: fit-content;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    row-gap: 5px;
+}
+.subscribe button {
+    width: 200px;
+    border: none;
+    background-color: orangered;
+    padding:10px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: auto;
+    color: white;
+    letter-spacing: 2px;
+}
+.subscribe button:hover {
+    background-color: red;
+    
+}
+.subscribe p {
+    margin: 0;
+    text-align: center;
+}
+.systemReqs {
+    /* background-color: aqua; */
+    width: 100%;
+    height: fit-content;
+}
+.systemReqs p {
+    margin: 0;
+    margin-top: 5px;
+}
+.systemReqs .line {
+    border: none;
+    border-top: 2px dotted grey;
+    margin: 15px 0;
+}
+.systemReqs h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
