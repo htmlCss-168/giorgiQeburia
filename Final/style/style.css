@@ -793,3 +793,21 @@ font-size: 40;
 
     }
 }
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaNEW GAMES */
+
+.newGame{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.newGame h1 {
+    font-family: newgame;
+    font-weight: bold;
+    font-size: 50px;
+}
+@font-face {
+    font-family: newgame;
+    src: url(fonts/Spantaran-GE2D.ttf);
+}
