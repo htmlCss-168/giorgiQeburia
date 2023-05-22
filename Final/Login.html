@@ -1,0 +1,42 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style/login.css">
+<title>Authorization</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <form onsubmit="login()">
+                <div class="wrapper">
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="username">
+                <label for="password">password:</label>
+                <input type="password" id="password" placeholder="password">
+                <p>Remember me:<input for="checkbox" type="checkbox"></p>
+                <input type="submit" id="submit" value="Login">
+                </div>  
+            </form>
+
+        <script type="text/javascript">
+            function login(){
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                event.preventDefault();
+                if (username == "Giorgi" && password == "Qeburia"){
+                    // alert("Login succsessfull");
+                    window.location.href= "loginSuccess.html";
+                }else{
+                    // alert("Login failed");
+                    window.location.href= "loginFailed.html";
+                }
+            }
+        </script>
+        </main>
+        <footer>
+          
+        </footer>
+    </body>
+</html>
